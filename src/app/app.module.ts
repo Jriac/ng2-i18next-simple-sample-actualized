@@ -9,8 +9,6 @@ import * as i18nextXHRBackend from 'i18next-xhr-backend';
 import * as i18nextBrowserLanguageDetector from 'i18next-browser-languagedetector';
 
 
-
-
 const NG2_I18NEXT_PROVIDERS = [{ provide: I18nServiceConfig, useValue: { use: [i18nextBrowserLanguageDetector, i18nextXHRBackend], config: { detection: { order: ['navigator'] }, fallbackLng: 'en' } } }, I18nService]
 
 @NgModule({

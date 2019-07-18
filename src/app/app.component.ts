@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,Directive } from '@angular/core';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
